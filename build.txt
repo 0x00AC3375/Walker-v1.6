@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon=logo.ico --add-data "./global.ttf;." --add-data "./logo.ico;." --add-data "./clap.wav;." --add-data "./cymbal.wav;." --add-data "./snare.wav;." --add-data "./kick.wav;."  --add-data "./hi-hat.wav;."   "Walker v1.6.py"
